@@ -19,6 +19,8 @@ function App() {
           <Route path="/blogs/:id" element={<Blog />} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path='/publish' element={<Publish/>}></Route>
+
+          <Route path="/" element={<Signup />} />
         </Routes>
       </BrowserRouter>
     </>
